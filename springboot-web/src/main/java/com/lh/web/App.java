@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * 测试
  * @author lihao3
  */
 @MapperScan("com.lh.bean.entity")
