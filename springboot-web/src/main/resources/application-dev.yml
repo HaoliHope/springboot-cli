@@ -32,7 +32,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     druid:
-      url: jdbc:mysql://10.88.45.249:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      url: jdbc:mysql://175.24.11.117:3306/test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
       username: root
       password: admin
       # 初始连接数
@@ -75,7 +75,8 @@ spring:
           config:
             multi-statement-allow: true
   redis:
-    host: 10.88.45.249
+    host: 175.24.11.117
+    database: 0
 
 mybatis-plus:
   # 检查mapper是否存在
