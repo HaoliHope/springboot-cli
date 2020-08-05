@@ -1,5 +1,5 @@
 # 指定维护者的名字
-# MAINTAINER lihao/2470960095@qq.com
+MAINTAINER lihao/2470960095@qq.com
 
 # 该镜像需要依赖的基础镜像
 FROM java:8
